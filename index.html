@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RTO Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <h1>RTO Website</h1>
+      <form>
+        <label for="car">Enter Car registration number:</label>
+        <p>Format : XX-11X-1234</p><br>
+        <input type="text" id="car" name="car">
+        <br><br>
+        <!-- <label for="car2">Enter car 2 registration number:</label>
+        <input type="text" id="car2" name="car2">
+        <br><br> -->
+        <button type="button" onclick="findOwners()">Find Owners</button>
+      </form>
+      <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
