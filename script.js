@@ -15,9 +15,9 @@ function findOwners() {
    if (car=="UP-32FJ-7010") {
       result.innerHTML = "<br>Car  owner: " + owner1;
     } else if (car=="KA-01M-0954") {
-      result.innerHTML = "Invalid car registration numbers";
+      result.innerHTML = "Invalid car registration number";
     } else {
-      result.innerHTML = "Invalid car registration numbers";
+      result.innerHTML = "Invalid car registration number";
     }
   }
   
