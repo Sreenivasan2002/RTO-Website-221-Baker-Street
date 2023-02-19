@@ -3,8 +3,8 @@ function findOwners() {
     // var car2 = document.getElementById("car2").value;
   
     var owners = {
-      "KL-48B-2610": "SREENIVASAN S, Thrissur, Kerala",
-      "KA-01M-0954": "krishna dev, Karnataka, banguluru"
+      "UP-32FJ-7010": "Dr. Pal, Gomtinagar, Lucknow, 226016",
+      //"KA-01M-0954": "krishna dev, Karnataka, banguluru"
     };
   
     var owner1 = owners[car.toUpperCase()];
@@ -12,10 +12,10 @@ function findOwners() {
   
     var result = document.getElementById("result");
   
-   if (car=="KL-48B-2610") {
+   if (car=="UP-32FJ-7010") {
       result.innerHTML = "<br>Car  owner: " + owner1;
     } else if (car=="KA-01M-0954") {
-      result.innerHTML = "<br>Car 2 owner: " + owner1;
+      result.innerHTML = "Invalid car registration numbers";
     } else {
       result.innerHTML = "Invalid car registration numbers";
     }
