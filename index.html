@@ -2,20 +2,23 @@
 <html>
   <head>
     <title>RTO Website</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=EB+Garamond:ital@1&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <h1>RTO Website</h1>
       <form>
         <label for="car">Enter Car registration number:</label>
-        <p>Format : XX-11XX-1234</p><br>
-        <input type="text" id="car" name="car">
-        <br><br>
-        <!-- <label for="car2">Enter car 2 registration number:</label>
-        <input type="text" id="car2" name="car2">
-        <br><br> -->
+        <p>Format : XX-11XX-1234</p>
+        <br />
+        <input type="text" id="car" name="car" />
+        <br />
         <button type="button" onclick="findOwners()">Find Owners</button>
       </form>
       <div id="result"></div>
