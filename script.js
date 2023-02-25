@@ -3,7 +3,7 @@ function findOwners() {
     // var car2 = document.getElementById("car2").value;
   
     var owners = {
-      "UP-32FJ-7010": "Dr. Pal, Gomtinagar, Lucknow, 226016",
+      "UP-32FJ-7010": "Satish Pal, Lucknow, 226016",
       //"KA-01M-0954": "krishna dev, Karnataka, banguluru"
     };
   
